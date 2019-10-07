@@ -1,0 +1,209 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    text-align: center;
+}
+
+/* header */
+
+header {
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    line-height: 60px;
+    position: fixed;
+    z-index: 100;
+}
+
+.header-left {
+    float: left;
+    padding-left: 100px;
+    font-size: 30px;
+    font-family: 'Superclarendon',sans-serif;
+}
+
+.header-right {
+    float: right;
+    font-family: 'Gurmukhi MN',sans-serif;
+}
+
+.header-right ul {
+    list-style: none;
+    padding-right: 120px;
+}
+
+.header-right ul li {
+    float: left;
+    padding: 0 40px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.header-right ul li:hover {
+    background-color: #dcdcdc;
+    transition: background-color 1s;
+}
+
+/* slider */
+
+.slider-title {
+    color: white;
+    font-size: 150px;
+    font-family: 'Trattatello',sans-serif;;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    z-index: 10;
+    padding: 0 15px 0 10px;
+    border: solid 8px;
+    border-radius: 50%;
+}
+
+/* introduction */
+
+.introduction {
+    color: #D1D1D1;
+    font-size: 15px;
+    background-color: #1A1A1A;
+    padding: 140px 0 70px 0;
+    font-family: 'klee',sans-serif;
+}
+
+.introduction p {
+    padding-bottom: 70px;
+    letter-spacing: 3px;
+}
+
+/* About */
+
+.about {
+    margin: 0 auto;
+    background-image: url("images/pic7.jpg");
+    background-size: 100% auto;
+    padding-bottom: 130px;
+    font-size: 20px;
+}
+
+.about-title {
+    padding: 35px 0;   
+    font-size: 45px;
+}
+
+.about-contents {
+    background-color: rgba(0,0,0,0.8);
+    display: inline-block;
+    color: white;
+    width: 75%;
+    border-radius: 10px;
+    padding: 0px 50px 50px 50px;
+}
+
+.about-left {
+    float: left;
+    width: 50%;
+    vertical-align: top;
+    padding-top: 50px;
+}
+
+.name-and-job {
+    font-family: 'Papyrus-Condensed',sans-serif;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+}
+
+.name-and-job h1 {
+    padding-bottom: 15px;
+}
+
+.career {
+    font-family: 'klee',sans-serif;
+}
+
+.career p {
+    padding-bottom: 30px;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.about-right {
+    float: left;
+    width: 50%;
+    padding-top: 20px;
+}
+
+.about-right h3 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.about-right ul {
+    list-style: none;
+}
+
+.about-right ul li {
+    font-size: 15px;
+    font-family: 'klee',sans-serif;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 190px;
+}
+
+.about-right img {
+    width: 200px;
+}
+
+/* Service */
+
+.service {
+    background-image: url("images/pic8.jpg");
+    background-size: 100% auto;
+    color: white;
+    padding: 110px 0 155px 0;
+}
+
+.service-title {
+    padding-bottom: 30px;
+    font-family: 'Gurmukhi MN',sans-serif;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+.service-subtitle {
+    font-family: 'klee',sans-serif;
+}
+
+.service-contents {
+    display: inline-block;
+    width: 30%;
+    padding-top: 80px;
+}
+
+.service-contents span {
+    font-size: 80px;
+    border-radius: 50%;
+    background-color: blue;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+}
+
+.service-contents h3,p {
+    font-family: 'klee';
+}
+
+.service-contents h3 {
+    padding-bottom: 20px;
+}
+
+.service-contents p {
+    font-size: 13px;
+}
